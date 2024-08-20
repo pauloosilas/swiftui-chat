@@ -28,7 +28,7 @@ struct LoginView: View{
                         .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                         
                     
-                    VStack(spacing: 20){
+                    VStack(spacing: 40){
                         CustomTextField(
                             imageName: "envelope",
                             placeholderText: "Email",
@@ -52,7 +52,8 @@ struct LoginView: View{
                     Spacer()
                     
                    NavigationLink(
-                    destination: Text("Reset password"),
+                    destination: Text("Reset password")
+                        .navigationBarBackButtonHidden(true),
                     label:{
                         Text("Forgot Password.")
                             .font(.system(size: 13, weight: .semibold))
