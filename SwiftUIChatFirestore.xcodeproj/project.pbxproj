@@ -14,6 +14,11 @@
 		3A38D0562C74D47800D28C5E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38D0552C74D47800D28C5E /* LoginView.swift */; };
 		3A38D0582C74D48D00D28C5E /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38D0572C74D48D00D28C5E /* RegistrationView.swift */; };
 		3A38D05B2C74E7DF00D28C5E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38D05A2C74E7DF00D28C5E /* CustomTextField.swift */; };
+		3A8D8EF22C7611EF005B4858 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8EF12C7611EF005B4858 /* MainTabView.swift */; };
+		3A8D8EF62C76137B005B4858 /* ChannelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8EF52C76137B005B4858 /* ChannelsView.swift */; };
+		3A8D8EF82C76139E005B4858 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8EF72C76139E005B4858 /* SettingsView.swift */; };
+		3A8D8EFA2C7613B4005B4858 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8EF92C7613B4005B4858 /* ChatsView.swift */; };
+		3A8D8EFD2C7613F0005B4858 /* ConversationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8EFC2C7613F0005B4858 /* ConversationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		3A38D0552C74D47800D28C5E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3A38D0572C74D48D00D28C5E /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		3A38D05A2C74E7DF00D28C5E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		3A8D8EF12C7611EF005B4858 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3A8D8EF52C76137B005B4858 /* ChannelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsView.swift; sourceTree = "<group>"; };
+		3A8D8EF72C76139E005B4858 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3A8D8EF92C7613B4005B4858 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		3A8D8EFC2C7613F0005B4858 /* ConversationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 		3A38D0532C74D41D00D28C5E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3A8D8EFB2C7613CE005B4858 /* Conversations */,
+				3A8D8EF42C761357005B4858 /* Chats */,
+				3A8D8EF02C7611D1005B4858 /* Settings */,
+				3A8D8EF32C761317005B4858 /* Channels */,
+				3A8D8EEF2C7611C8005B4858 /* Main */,
 				3A38D0592C74D49500D28C5E /* Authentication */,
 			);
 			path = View;
@@ -122,6 +137,46 @@
 				3A38D0572C74D48D00D28C5E /* RegistrationView.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		3A8D8EEF2C7611C8005B4858 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3A8D8EF12C7611EF005B4858 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3A8D8EF02C7611D1005B4858 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3A8D8EF72C76139E005B4858 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3A8D8EF32C761317005B4858 /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				3A8D8EF52C76137B005B4858 /* ChannelsView.swift */,
+			);
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		3A8D8EF42C761357005B4858 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				3A8D8EF92C7613B4005B4858 /* ChatsView.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		3A8D8EFB2C7613CE005B4858 /* Conversations */ = {
+			isa = PBXGroup;
+			children = (
+				3A8D8EFC2C7613F0005B4858 /* ConversationsView.swift */,
+			);
+			path = Conversations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,10 +250,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A38D0562C74D47800D28C5E /* LoginView.swift in Sources */,
+				3A8D8EF82C76139E005B4858 /* SettingsView.swift in Sources */,
 				3A38D0452C74D38400D28C5E /* ContentView.swift in Sources */,
+				3A8D8EFD2C7613F0005B4858 /* ConversationsView.swift in Sources */,
 				3A38D0432C74D38400D28C5E /* SwiftUIChatFirestoreApp.swift in Sources */,
 				3A38D0582C74D48D00D28C5E /* RegistrationView.swift in Sources */,
 				3A38D05B2C74E7DF00D28C5E /* CustomTextField.swift in Sources */,
+				3A8D8EFA2C7613B4005B4858 /* ChatsView.swift in Sources */,
+				3A8D8EF22C7611EF005B4858 /* MainTabView.swift in Sources */,
+				3A8D8EF62C76137B005B4858 /* ChannelsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
