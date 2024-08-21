@@ -19,6 +19,9 @@
 		3A8D8EF82C76139E005B4858 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8EF72C76139E005B4858 /* SettingsView.swift */; };
 		3A8D8EFA2C7613B4005B4858 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8EF92C7613B4005B4858 /* ChatsView.swift */; };
 		3A8D8EFD2C7613F0005B4858 /* ConversationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8EFC2C7613F0005B4858 /* ConversationsView.swift */; };
+		3A8D8EFF2C761F23005B4858 /* SettingsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8EFE2C761F23005B4858 /* SettingsHeaderView.swift */; };
+		3A8D8F012C761FF6005B4858 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8F002C761FF6005B4858 /* SettingsCell.swift */; };
+		3A8D8F042C7625F8005B4858 /* SettingsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8F032C7625F8005B4858 /* SettingsCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		3A8D8EF72C76139E005B4858 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		3A8D8EF92C7613B4005B4858 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
 		3A8D8EFC2C7613F0005B4858 /* ConversationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsView.swift; sourceTree = "<group>"; };
+		3A8D8EFE2C761F23005B4858 /* SettingsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsHeaderView.swift; sourceTree = "<group>"; };
+		3A8D8F002C761FF6005B4858 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		3A8D8F032C7625F8005B4858 /* SettingsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,8 @@
 		3A38D0522C74D40700D28C5E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3A8D8F022C7625E3005B4858 /* New Group */,
+				3A8D8F032C7625F8005B4858 /* SettingsCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -151,6 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				3A8D8EF72C76139E005B4858 /* SettingsView.swift */,
+				3A8D8EFE2C761F23005B4858 /* SettingsHeaderView.swift */,
+				3A8D8F002C761FF6005B4858 /* SettingsCell.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -177,6 +187,13 @@
 				3A8D8EFC2C7613F0005B4858 /* ConversationsView.swift */,
 			);
 			path = Conversations;
+			sourceTree = "<group>";
+		};
+		3A8D8F022C7625E3005B4858 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +268,10 @@
 			files = (
 				3A38D0562C74D47800D28C5E /* LoginView.swift in Sources */,
 				3A8D8EF82C76139E005B4858 /* SettingsView.swift in Sources */,
+				3A8D8F042C7625F8005B4858 /* SettingsCellViewModel.swift in Sources */,
+				3A8D8F012C761FF6005B4858 /* SettingsCell.swift in Sources */,
 				3A38D0452C74D38400D28C5E /* ContentView.swift in Sources */,
+				3A8D8EFF2C761F23005B4858 /* SettingsHeaderView.swift in Sources */,
 				3A8D8EFD2C7613F0005B4858 /* ConversationsView.swift in Sources */,
 				3A38D0432C74D38400D28C5E /* SwiftUIChatFirestoreApp.swift in Sources */,
 				3A38D0582C74D48D00D28C5E /* RegistrationView.swift in Sources */,
