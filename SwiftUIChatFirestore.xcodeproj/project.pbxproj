@@ -22,6 +22,7 @@
 		3A8D8EFF2C761F23005B4858 /* SettingsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8EFE2C761F23005B4858 /* SettingsHeaderView.swift */; };
 		3A8D8F012C761FF6005B4858 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8F002C761FF6005B4858 /* SettingsCell.swift */; };
 		3A8D8F042C7625F8005B4858 /* SettingsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8F032C7625F8005B4858 /* SettingsCellViewModel.swift */; };
+		3ACB818B2C7947BC008E578F /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACB818A2C7947BC008E578F /* EditProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		3A8D8EFE2C761F23005B4858 /* SettingsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsHeaderView.swift; sourceTree = "<group>"; };
 		3A8D8F002C761FF6005B4858 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 		3A8D8F032C7625F8005B4858 /* SettingsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCellViewModel.swift; sourceTree = "<group>"; };
+		3ACB818A2C7947BC008E578F /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 				3A8D8EF72C76139E005B4858 /* SettingsView.swift */,
 				3A8D8EFE2C761F23005B4858 /* SettingsHeaderView.swift */,
 				3A8D8F002C761FF6005B4858 /* SettingsCell.swift */,
+				3ACB818A2C7947BC008E578F /* EditProfileView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ACB818B2C7947BC008E578F /* EditProfileView.swift in Sources */,
 				3A38D0562C74D47800D28C5E /* LoginView.swift in Sources */,
 				3A8D8EF82C76139E005B4858 /* SettingsView.swift in Sources */,
 				3A8D8F042C7625F8005B4858 /* SettingsCellViewModel.swift in Sources */,
