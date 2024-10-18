@@ -20,7 +20,7 @@ struct SettingsView: View {
                         SettingsHeaderView()
                     }
                 )
-                
+                                
                 VStack(spacing: 1) {
                     ForEach(SettingsCellViewModel.allCases, id: \.self){ viewModel in
                         SettingsCell(viewModel: viewModel)

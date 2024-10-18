@@ -53,7 +53,7 @@ struct EditProfileView: View {
                         .foregroundColor(.gray)
                     
                     NavigationLink(
-                        destination: Text("Edit Status"),
+                        destination: StatusSelectorView(),
                         label:{
                             HStack{
                                 Text("At the movies")
