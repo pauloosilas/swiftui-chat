@@ -24,6 +24,7 @@
 		3A8D8F042C7625F8005B4858 /* SettingsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D8F032C7625F8005B4858 /* SettingsCellViewModel.swift */; };
 		3ACB818B2C7947BC008E578F /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACB818A2C7947BC008E578F /* EditProfileView.swift */; };
 		3AD366592CC2DFF800287EEA /* StatusSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD366582CC2DFD900287EEA /* StatusSelectorView.swift */; };
+		3AD3665B2CC2E9A200287EEA /* StatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3665A2CC2E9A200287EEA /* StatusViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		3A8D8F032C7625F8005B4858 /* SettingsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCellViewModel.swift; sourceTree = "<group>"; };
 		3ACB818A2C7947BC008E578F /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		3AD366582CC2DFD900287EEA /* StatusSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusSelectorView.swift; sourceTree = "<group>"; };
+		3AD3665A2CC2E9A200287EEA /* StatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				3A8D8F022C7625E3005B4858 /* New Group */,
 				3A8D8F032C7625F8005B4858 /* SettingsCellViewModel.swift */,
+				3AD3665A2CC2E9A200287EEA /* StatusViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD3665B2CC2E9A200287EEA /* StatusViewModel.swift in Sources */,
 				3ACB818B2C7947BC008E578F /* EditProfileView.swift in Sources */,
 				3A38D0562C74D47800D28C5E /* LoginView.swift in Sources */,
 				3A8D8EF82C76139E005B4858 /* SettingsView.swift in Sources */,
